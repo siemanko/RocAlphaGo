@@ -27,7 +27,7 @@ extensions = [
               extra_compile_args=["-std=c++11"], extra_link_args=["-std=c++11"]),
 ]
 
-setup(name="RocAlphaGo", ext_modules=cythonize(extensions), packages=['AlphaGo'])
+setup(name="RocAlphaGo", ext_modules=cythonize(extensions), packages=['AlphaGo', 'AlphaGo.go'])
 
 """
    install all necessary dependencies using:
